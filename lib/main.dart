@@ -35,7 +35,6 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   final String endPoint = 'http://10.0.2.2:5000/count';
-  late Future<dynamic> data;
   var jsonResponse;
 
   Future _choose(jsonResponse) async {
